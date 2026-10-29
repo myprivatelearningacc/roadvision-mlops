@@ -1,0 +1,4 @@
+[core]
+    remote = drive-storage
+['remote "drive-storage"']
+    url = /content/drive/MyDrive/RoadVision/dvc-storage

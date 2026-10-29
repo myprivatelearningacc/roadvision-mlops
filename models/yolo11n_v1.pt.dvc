@@ -1,0 +1,5 @@
+outs:
+- md5: 946c1a55622fe0f2e4c237799fe9d35e
+  size: 5503194
+  hash: md5
+  path: yolo11n_v1.pt

@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  validate_data:
+    cmd: python src/verify_data.py
+    deps:
+    - path: data/rdd2022_v1.zip
+      hash: md5
+      md5: 40de5450adde8da358d6828e3771251b
+      size: 121153710
+    - path: data/rdd2022_v2.zip
+      hash: md5
+      md5: 5e013b69a9c94b420bf9905456b0799e
+      size: 169073532
+    - path: src/verify_data.py
+      hash: md5
+      md5: 280f69c2409bebe1a30a2f0355d02955
+      size: 2971
+    outs:
+    - path: reports/data_validation.json
+      hash: md5
+      md5: 13469080930626c2a1278506d0f95832
+      size: 1081

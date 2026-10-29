@@ -1,0 +1,10 @@
+
+stages:
+  validate_data:
+    cmd: python src/verify_data.py
+    deps:
+      - src/verify_data.py
+      - data/rdd2022_v1.zip
+      - data/rdd2022_v2.zip
+    outs:
+      - reports/data_validation.json

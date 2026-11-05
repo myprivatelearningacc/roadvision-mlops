@@ -1,0 +1,10 @@
+**/.git
+**/.dvc/cache
+**/.venv
+**/node_modules
+**/__pycache__
+data
+notebooks
+models
+reports
+*.zip

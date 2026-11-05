@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node.js / React
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# ML artifacts generated locally
+runs/
+mlruns/
+*.cache
+
+# Operating system / IDE
+.DS_Store
+Thumbs.db
+.vscode/
